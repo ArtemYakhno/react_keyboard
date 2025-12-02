@@ -10,7 +10,7 @@ export class App extends React.Component {
   };
 
   changeKeyUp = (event: KeyboardEvent) => {
-    this.setState({ key: event.key });
+    this.setState({ pressedKey: event.key });
   };
 
   componentDidMount(): void {
